@@ -12,7 +12,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 from datetime import datetime, timedelta
 
 
-visual_crossing_api_key = 'L56K755EB8WE8UPQ8KAR3HUVF'
+visual_crossing_api_key = 'YOUR_VISUAL_CROSSING_API_KEY'
 openweather_api_key = 'ec995a56bc555cbcdfd392f33705e66e'
 
 
