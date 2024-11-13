@@ -22,31 +22,35 @@ Machine Learning Model: Deep Neural Network using `TensorFlow Keras`
 ## Setup
 ### Clone the repository:
 
-*git clone [https://github.com/Hardik-Raj-Kapoor/Health_Risk_Prediction.git](https://github.com/Hardik-Raj-Kapoor/Health_Risk_Prediction)*
+```
+git clone https://github.com/Hardik-Raj-Kapoor/Health_Risk_Prediction.git
 
-*cd Health_Risk_Prediction*
+cd Health_Risk_Prediction
+```
 
 ### Install Dependencies:
 
-*pip install -r requirements.txt*
+```
+pip install -r requirements.txt
+```
 
 ### API Keys:
 
-Register for API keys at Visual Crossing and OpenWeatherMap.
+Register for API keys at [Visual Crossing](https://www.visualcrossing.com/) and [OpenWeatherMap](https://openweathermap.org/).
 
 Replace placeholders with your keys in the code:
+```
+visual_crossing_api_key = 'YOUR_VISUAL_CROSSING_API_KEY'
 
-*visual_crossing_api_key = ['YOUR_VISUAL_CROSSING_API_KEY'](https://www.visualcrossing.com/)*
-
-*openweather_api_key = ['YOUR_OPENWEATHERMAP_API_KEY'](https://openweathermap.org/)*
-
+openweather_api_key = 'YOUR_OPENWEATHERMAP_API_KEY'
+```
 ## Usage
 ### Run the Script:
 
-*python Health_Risk_Prediction.py*
-
+```
+python Health_Risk_Prediction.py
+```
 *Input City Name: You’ll be prompted to enter a city name.*
-
 ### Output: The script will display:
 
 + Environmental data for the past month
