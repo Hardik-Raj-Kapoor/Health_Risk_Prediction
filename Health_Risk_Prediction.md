@@ -36,9 +36,9 @@ Register for API keys at Visual Crossing and OpenWeatherMap.
 
 Replace placeholders with your keys in the code:
 
-*visual_crossing_api_key = 'YOUR_VISUAL_CROSSING_API_KEY'*
+*visual_crossing_api_key = ['YOUR_VISUAL_CROSSING_API_KEY'](https://www.visualcrossing.com/)*
 
-*openweather_api_key = 'YOUR_OPENWEATHERMAP_API_KEY'*
+*openweather_api_key = ['YOUR_OPENWEATHERMAP_API_KEY'](https://openweathermap.org/)*
 
 ## Usage
 ### Run the Script:
