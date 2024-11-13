@@ -13,11 +13,11 @@ Disease Probabilities: Outputs the probabilities of potential diseases related t
 Visualization: Plots historical and predicted health risk indices and environmental trends over time.
 
 ## Technologies Used
-Python Libraries: pandas, numpy, requests, matplotlib, seaborn, scikit-learn, tensorflow
+Python Libraries: `pandas`, `numpy`, `requests`, `matplotlib`, `seaborn`, `scikit-learn`, `tensorflow`
 
 APIs: Visual Crossing API, OpenWeatherMap API
 
-Machine Learning Model: Deep Neural Network using TensorFlow Keras 
+Machine Learning Model: Deep Neural Network using `TensorFlow Keras`
 
 ## Setup
 ### Clone the repository:
@@ -57,8 +57,8 @@ Replace placeholders with your keys in the code:
 + Visualization of historical and forecasted environmental factors and health risks
 
 ## Project Structure
-+ Health_Risk_Prediction.py - The main script for data fetching, processing, model training, and predictions.
-+ requirements.txt - Lists required Python libraries.
++ `Health_Risk_Prediction.py` - The main script for data fetching, processing, model training, and predictions.
++ `requirements.txt` - Lists required Python libraries.
 + API keys (not included in the repository) - Register and add your own API keys for functionality.
 
 ## Future Scope
