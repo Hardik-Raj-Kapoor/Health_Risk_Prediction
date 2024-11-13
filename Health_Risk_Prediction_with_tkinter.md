@@ -15,21 +15,22 @@ This application predicts health risks based on environmental factors for a spec
 ## Setup
 
 ### Clone this repository:
+```
+git clone <repository-url>
 
-_git clone <repository-url>_
-
-_cd <repository-directory>_
-
+cd <repository-directory>
+```
 Install the required Python libraries:
-
-_pip install -r requirements.txt_
+```
+pip install -r requirements.txt
+```
 _Insert your API keys for OpenWeather and Visual Crossing in the code._
 
 ## Usage
 ### 1. Run the application:
-
-_python Health_Risk_Prediction_with_tkinter.py_
-
+```
+python Health_Risk_Prediction_with_tkinter.py
+```
 ### 2. Enter the desired city in the app's text box.
 
 
@@ -48,3 +49,6 @@ _python Health_Risk_Prediction_with_tkinter.py_
 + Python 3.7+
 + Libraries: `pandas`, `numpy`, `requests`, `scikit-learn`, `tensorflow`, `tkinter`, `matplotlib`, `seaborn`
 + API Keys for OpenWeather and Visual Crossing
+
+##  Example
+Upon entering **"New York"** and clicking **Predict Health Risk**, you will see a Google Maps window showing New York's location and a table with 30-day environmental data, with color-coded risk levels.
