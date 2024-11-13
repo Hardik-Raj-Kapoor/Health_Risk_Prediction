@@ -22,9 +22,9 @@ Machine Learning Model: Deep Neural Network using TensorFlow Keras
 ## Setup
 ### Clone the repository:
 
-*git clone [https://github.com/Hardik-Raj-Kapoor/health-risk-prediction.git](https://github.com/Hardik-Raj-Kapoor/Health_Risk_Prediction)*
+*git clone [https://github.com/Hardik-Raj-Kapoor/Health_Risk_Prediction.git](https://github.com/Hardik-Raj-Kapoor/Health_Risk_Prediction)*
 
-*cd health-risk-prediction*
+*cd Health_Risk_Prediction*
 
 ### Install Dependencies:
 
@@ -43,7 +43,7 @@ Replace placeholders with your keys in the code:
 ## Usage
 ### Run the Script:
 
-*python health_risk_prediction.py*
+*python Health_Risk_Prediction.py*
 
 *Input City Name: You’ll be prompted to enter a city name.*
 
@@ -57,7 +57,7 @@ Replace placeholders with your keys in the code:
 + Visualization of historical and forecasted environmental factors and health risks
 
 ## Project Structure
-+ health_risk_prediction.py - The main script for data fetching, processing, model training, and predictions.
++ Health_Risk_Prediction.py - The main script for data fetching, processing, model training, and predictions.
 + requirements.txt - Lists required Python libraries.
 + API keys (not included in the repository) - Register and add your own API keys for functionality.
 
